@@ -1,6 +1,6 @@
 # assistant-ia-pipelines
 
-Ce repertoire contient les pipeline utilisés sur assistant-ia (anciennement albert-conversation).
+Ce repository contient les pipeline utilisés sur assistant-ia (anciennement albert-conversation).
 
 ## Configuration du workspace
 
@@ -16,6 +16,16 @@ $ git config core.hooksPath git-hooks
 $ gitleaks --version
 gitleaks version 8.25.1
 ```
+
+## Instances de prod et dev
+
+Pour le moment il existe deux instances de *Assistant IA* :
+
+- https://albert.numerique.gouv.fr/ géré dans le dossier [`./prod/`](./prod/)
+- https://albert-dev.beta.numerique.gouv.fr/ géré dans le dossier [`./dev/`](./dev/)
+
+Je vous invite à explorer le dossier de l'instance de votre choix.
+
 
 ## Contributions
 
