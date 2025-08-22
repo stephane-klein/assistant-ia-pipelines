@@ -1020,7 +1020,7 @@ def stream_albert(
 
 class Pipeline:
     class Valves(BaseModel):
-        max_turns: int = Field(
+        MAX_TURNS: int = Field(
             default=4, description="Maximum allowable conversation turns for a user."
         )
 

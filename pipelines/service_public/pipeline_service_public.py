@@ -628,7 +628,7 @@ def pipe_rag(
 
 class Pipeline:
     class Valves(BaseModel):
-        max_turns: int = Field(
+        MAX_TURNS: int = Field(
             default=5, description="Maximum conversation turns taken into account for a user."
         )
 
