@@ -642,7 +642,6 @@ class Pipeline:
         NUMBER_OF_CHUNKS: int = Field(default=5)
         SEARCH_SCORE_THRESHOLD: float = Field(default=0.35)
         RERANKER_SCORE_THRESHOLD: float = Field(default=0.1)
-        pass
  
     def __init__(self):
         self.name = PIPELINE_NAME

@@ -1039,7 +1039,6 @@ class Pipeline:
         SUPERVISOR_MODEL: str = Field(default="albert-large")
         DEFAULT_MODEL: str = Field(default="albert-small")
         BRAVE_KEY: str = Field(default="")
-        pass
  
     def __init__(self):
         self.name = PIPELINE_NAME
