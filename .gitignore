@@ -209,3 +209,5 @@ __marimo__/
 # EVAL
 eval/results/*
 eval/results/.DS_Store
+.secret
+.venv/

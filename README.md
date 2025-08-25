@@ -15,6 +15,29 @@ $ mise install
 $ git config core.hooksPath git-hooks
 $ gitleaks --version
 gitleaks version 8.25.1
+$ pip install -r requirements.txt
+```
+
+Configurer `.secret` :
+
+```sh
+$ cp .secret.skel .secret
+```
+
+Modifiez les paramètres dans `.secret`.
+
+```
+$ source .envrc
+```
+
+Et pour finir, testez que vous avez bien accès à l'API:
+
+```
+$ ./prod/scripts/check-api-access.py
+Hello Stéphane Klein, your API Key secret token works successfully
+
+$ ./dev/scripts/check-api-access.py
+Hello Stéphane Klein, your API Key secret token works successfully
 ```
 
 ## Instances de prod et dev
